@@ -1,7 +1,7 @@
 {
-  "name": "browser_extension-tsarprince",
+  "name": "greenhorn",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,8 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.9.0"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^1.0.14",
