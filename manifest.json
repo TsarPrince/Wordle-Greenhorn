@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Greenhorn",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "src/assets/greenhorn16.png",
+      "24": "src/assets/greenhorn24.png",
+      "32": "src/assets/greenhorn32.png"
+    }
+  },
+  "default_title": "Greenhorn - Wordle for newbies",
+  "content_scripts": [
+    {
+      "js": [
+        "src/content.tsx"
+      ],
+      "matches": [
+        "https://www.nytimes.com/games/wordle/*"
+      ]
+    }
+  ]
+}
