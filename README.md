@@ -46,6 +46,11 @@ npm version: 8.19.2
         "assets/content.tsx.73b3edeb.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "greenhorn@tsarprince.com"
+    }
+  }
 }
 ```
