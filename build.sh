@@ -5,7 +5,7 @@ echo '{
   "manifest_version": 3,
   "name": "Greenhorn",
   "description": "Wordle for newbies",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "action": {
     "default_popup": "index.html"
   },
