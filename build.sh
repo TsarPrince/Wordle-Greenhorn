@@ -11,7 +11,8 @@ echo '{
   },
   "icons": {
     "48": "icons/48.jpg",
-    "96": "icons/96.jpg"
+    "96": "icons/96.jpg",
+    "128": "icons/128.png"
   },
   "content_scripts": [
     {

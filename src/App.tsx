@@ -67,6 +67,7 @@ function App() {
       // don't remove words containing 'absent' chars if that specific char is in present also
       for (const unwanted of absent) {
         if (Object.values(correct).includes(unwanted)) continue
+        if (Object.values(present).includes(unwanted)) continue
         if (word.includes(unwanted)) {
           words.splice(i, 1)
           i--
